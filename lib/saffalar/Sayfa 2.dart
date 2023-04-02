@@ -10,9 +10,12 @@ class DrawerSayfa2 extends StatefulWidget {
 class _DrawerSayfa2State extends State<DrawerSayfa2> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
-        child: Text('Drawer Sayfa İki'),
+        child: Text(
+          'Drawer Sayfa İki',
+          style: TextStyle(fontSize: 30),
+        ),
       ),
     );
   }
